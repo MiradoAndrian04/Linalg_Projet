@@ -1,3 +1,7 @@
+RALAIELARIVONY Harizo Ny Aina
+RAMAHANDRY Tsinjoniaina Riantsoa
+ANDRIANATREHINA Ny Antsa Mirado
+
 # Projet d'Algèbre Linéaire
 
 Ce projet est une implémentation en Python de l'Analyse en Composantes Principales (ACP) pour l'analyse et la visualisation de données. Il inclut des fonctionnalités pour charger des ensembles de données, effectuer une ACP et visualiser les résultats à travers divers graphiques.
