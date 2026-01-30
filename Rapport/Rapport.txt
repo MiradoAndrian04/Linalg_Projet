@@ -1,0 +1,52 @@
+# Rapport du Projet de l'Algèbre Linéaire
+
+## Introduction
+Ce projet a été réalisé dans le cadre du cours d'Algèbre Linéaire. L'objectif principal était d'explorer et d'appliquer des concepts fondamentaux de l'algèbre linéaire à travers le développement d'algorithmes et l'analyse de données. Le projet est structuré en plusieurs modules, chacun ayant un rôle spécifique dans le traitement et l'analyse des données.
+
+## Structure du Projet
+Le projet est organisé comme suit :
+
+- **data/** : Contient les fichiers de données utilisés pour les analyses, notamment :
+  - `data_jouets.csv` : Un jeu de données jouet pour les tests.
+  - `iris.csv` : Le célèbre jeu de données Iris pour l'analyse des fleurs.
+  - `notes_etudiants.csv` : Données sur les notes des étudiants.
+  - `notes_sim.csv` et `score_sim.csv` : Données simulées pour des analyses spécifiques.
+
+- **notebooks/** : Contient le fichier `dataset.py` qui est utilisé pour manipuler et analyser les jeux de données.
+
+- **Rapport/** : Contient ce rapport détaillant les objectifs, la méthodologie et les résultats du projet.
+
+- **results/** : Contient les résultats des analyses sous forme de figures :
+  - `bar_variance.png` : Graphique en barres représentant la variance.
+  - `color_by_value.png` : Visualisation des données colorées par valeur.
+  - `line_cumulative.png` : Graphique linéaire des valeurs cumulées.
+  - `scatter_projection.png` : Diagramme de dispersion des projections.
+
+- **src/** : Contient le code source du projet, organisé comme suit :
+  - `algorithme.py` : Implémente les algorithmes principaux utilisés dans le projet.
+  - `data_loader.py` : Gère le chargement et la préparation des données.
+  - `linalg_utils.py` : Fournit des fonctions utilitaires pour les calculs d'algèbre linéaire.
+  - `main.py` : Point d'entrée principal du projet.
+  - `utils/visualisation.py` : Contient des fonctions pour la visualisation des données et des résultats.
+
+## Objectifs
+Les objectifs principaux de ce projet étaient :
+1. Appliquer les concepts d'algèbre linéaire pour analyser des jeux de données.
+2. Développer des algorithmes pour effectuer des calculs matriciels et des projections.
+3. Visualiser les résultats des analyses pour une meilleure interprétation.
+
+## Méthodologie
+1. **Chargement des données** : Les données ont été chargées à partir des fichiers CSV situés dans le dossier `data/` à l'aide du module `data_loader.py`.
+2. **Traitement des données** : Les données ont été nettoyées et préparées pour l'analyse dans le module `dataset.py`.
+3. **Calculs d'algèbre linéaire** : Les calculs matriciels, tels que les décompositions en valeurs singulières (SVD) et les projections, ont été implémentés dans `linalg_utils.py` et `algorithme.py`.
+4. **Visualisation** : Les résultats des analyses ont été visualisés à l'aide des fonctions définies dans `utils/visualisation.py`. Les graphiques générés sont stockés dans le dossier `results/figures/`.
+
+## Résultats
+Les résultats obtenus incluent :
+- Une analyse des variances des données, représentée par le graphique `bar_variance.png`.
+- Une visualisation des données colorées par valeur, disponible dans `color_by_value.png`.
+- Une analyse des valeurs cumulées, illustrée par le graphique `line_cumulative.png`.
+- Une projection des données sur un espace réduit, représentée par le diagramme `scatter_projection.png`.
+
+## Conclusion
+Ce projet a permis de mettre en pratique les concepts d'algèbre linéaire dans un contexte appliqué. Les résultats obtenus montrent l'importance de ces concepts dans l'analyse et la visualisation des données. Les outils développés dans ce projet peuvent être réutilisés et étendus pour d'autres analyses similaires à l'avenir.
